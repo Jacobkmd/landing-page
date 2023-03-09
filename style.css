@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+body {
+    font-family: "Roboto-Slab", serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+.header-hero-wrapper {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.header-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.JM-tech-card {
+    align-self:center;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+
+}
+
+.hero-text {
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: blue;
+    color: #E5E7EB;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.cards-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid blue;
+}
+
+.cards-wrapper h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: -50px;
+}
+
+.cards-wrapper {
+    margin: 100px;
+}
+
+.card-subtext {
+    text-align: center;
+    margin-top: 5px;
+}
