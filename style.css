@@ -47,12 +47,15 @@ body {
     margin: 100px;
     margin-left: 400px;
     margin-right: 400px;
+    gap: 30px;
 
 }
 
 .JM-tech-card {
-    align-self:center;
+    display: flex;
+    flex-direction: column;
     margin-right: 20px;
+    justify-content: space-between;
 }
 
 h1 {
@@ -66,6 +69,8 @@ h1 {
 
 .hero-text {
     color: #E5E7EB;
+    max-width: 700px;
+    
 }
 
 .sign-up {
@@ -75,6 +80,7 @@ h1 {
     padding: 5px 20px;
     border-radius: 5px;
     border: 0;
+    max-width: 100px;
 }
 
 .cards-container {
@@ -107,4 +113,90 @@ h1 {
 .card-subtext {
     text-align: center;
     margin-top: 5px;
+}
+
+.quote-wrapper {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    
+    
+}
+
+.qoute-author {
+    font-weight: 900;
+    align-self: flex-end;
+    font-size: 26px;
+    
+    
+}
+
+.end-wrapper {
+    margin: 100px;
+}
+
+.end-container {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 50px;
+}
+
+.end-text {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+h3{
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+.sign-up-second{
+    border: 2px solid #E5E7EB;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 14;
+}
+
+.footer-wrapper {
+    background-color: #1F2937;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    color: #E5E7EB;
 }
